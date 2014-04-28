@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87C59DA9190E969F005D1603 /* K♥️.png in Resources */ = {isa = PBXBuildFile; fileRef = 87C59DA8190E969F005D1603 /* K♥️.png */; };
+		87C59DB0190E98AE005D1603 /* index.png in Resources */ = {isa = PBXBuildFile; fileRef = 87C59DAF190E98AE005D1603 /* index.png */; };
+		8D33D0DE190C40B200E6900B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D33D0DD190C40B200E6900B /* UIKit.framework */; };
+		8D33D0E0190C40B200E6900B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D33D0DF190C40B200E6900B /* Foundation.framework */; };
+		8D33D0E2190C40B200E6900B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D33D0E1190C40B200E6900B /* CoreGraphics.framework */; };
+		8D33D0E8190C40B200E6900B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D33D0E6190C40B200E6900B /* InfoPlist.strings */; };
+		8D33D0EA190C40B200E6900B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D33D0E9190C40B200E6900B /* main.m */; };
+		8D33D0EE190C40B200E6900B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D33D0ED190C40B200E6900B /* AppDelegate.m */; };
+		8D33D0F1190C40B200E6900B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D33D0EF190C40B200E6900B /* MainStoryboard_iPhone.storyboard */; };
+		8D33D0F4190C40B200E6900B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D33D0F2190C40B200E6900B /* MainStoryboard_iPad.storyboard */; };
+		8D33D0F7190C40B200E6900B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D33D0F6190C40B200E6900B /* FirstViewController.m */; };
+		8D33D0F9190C40B200E6900B /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D33D0F8190C40B200E6900B /* first.png */; };
+		8D33D0FB190C40B200E6900B /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D33D0FA190C40B200E6900B /* first@2x.png */; };
+		8D33D0FE190C40B200E6900B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D33D0FD190C40B200E6900B /* SecondViewController.m */; };
+		8D33D100190C40B200E6900B /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D33D0FF190C40B200E6900B /* second.png */; };
+		8D33D102190C40B200E6900B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D33D101190C40B200E6900B /* second@2x.png */; };
+		8D33D10A190C40B300E6900B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D33D109190C40B300E6900B /* SenTestingKit.framework */; };
+		8D33D10B190C40B300E6900B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D33D0DD190C40B200E6900B /* UIKit.framework */; };
+		8D33D10C190C40B300E6900B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D33D0DF190C40B200E6900B /* Foundation.framework */; };
+		8D33D114190C40B300E6900B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D33D112190C40B300E6900B /* InfoPlist.strings */; };
+		8D33D117190C40B300E6900B /* finalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D33D116190C40B300E6900B /* finalTests.m */; };
+		8D33D12E190C426800E6900B /* SpirographView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D33D127190C426800E6900B /* SpirographView.m */; };
+		8D33D12F190C426800E6900B /* HarmonigraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D33D129190C426800E6900B /* HarmonigraphView.m */; };
+		8D33D130190C426800E6900B /* SpirographAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D33D12B190C426800E6900B /* SpirographAppDelegate.m */; };
+		8D33D131190C426800E6900B /* SpirographViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D33D12D190C426800E6900B /* SpirographViewController.m */; };
+		8D33D148190C461700E6900B /* Quiz8EtchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D33D143190C461700E6900B /* Quiz8EtchView.m */; };
+		8D33D149190C461700E6900B /* Quiz8AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D33D145190C461700E6900B /* Quiz8AppDelegate.m */; };
+		8D33D14A190C461700E6900B /* Quiz8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D33D147190C461700E6900B /* Quiz8ViewController.m */; };
+		8D33D14C190C466400E6900B /* redframe.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D33D14B190C466400E6900B /* redframe.png */; };
+		8DE30B86190DAB3200654A5F /* morback.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DE30B77190DAB3200654A5F /* morback.png */; };
+		8DE30B87190DAB3200654A5F /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE30B79190DAB3200654A5F /* CardMatchingGame.m */; };
+		8DE30B88190DAB3200654A5F /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE30B7B190DAB3200654A5F /* Card.m */; };
+		8DE30B89190DAB3200654A5F /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE30B7D190DAB3200654A5F /* Deck.m */; };
+		8DE30B8A190DAB3200654A5F /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE30B7F190DAB3200654A5F /* PlayingCardDeck.m */; };
+		8DE30B8B190DAB3200654A5F /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE30B81190DAB3200654A5F /* PlayingCard.m */; };
+		8DE30B8C190DAB3200654A5F /* MatchingGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE30B83190DAB3200654A5F /* MatchingGameAppDelegate.m */; };
+		8DE30B8D190DAB3200654A5F /* MatchingGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE30B85190DAB3200654A5F /* MatchingGameViewController.m */; };
+		8DE30B94190DADDC00654A5F /* spirotabbaritem.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DE30B93190DADDC00654A5F /* spirotabbaritem.png */; };
+		8DE30B96190DADE900654A5F /* tabbaritem1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DE30B95190DADE900654A5F /* tabbaritem1.png */; };
+		8DE30B98190DADF400654A5F /* cardtabbaritem.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DE30B97190DADF400654A5F /* cardtabbaritem.png */; };
+		8DE30B9A190DADFE00654A5F /* etchtabbaritem.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DE30B99190DADFE00654A5F /* etchtabbaritem.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D33D10D190C40B300E6900B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D33D0D0190C40B200E6900B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D33D0D8190C40B200E6900B;
+			remoteInfo = final;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87C59DA8190E969F005D1603 /* K♥️.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♥️.png"; sourceTree = "<group>"; };
+		87C59DAF190E98AE005D1603 /* index.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = index.png; sourceTree = "<group>"; };
+		8D33D0D9190C40B200E6900B /* FinalExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D33D0DD190C40B200E6900B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8D33D0DF190C40B200E6900B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8D33D0E1190C40B200E6900B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D33D0E5190C40B200E6900B /* FinalExam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinalExam-Info.plist"; sourceTree = "<group>"; };
+		8D33D0E7190C40B200E6900B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D33D0E9190C40B200E6900B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D33D0EB190C40B200E6900B /* FinalExam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FinalExam-Prefix.pch"; sourceTree = "<group>"; };
+		8D33D0EC190C40B200E6900B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D33D0ED190C40B200E6900B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D33D0F0190C40B200E6900B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8D33D0F3190C40B200E6900B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		8D33D0F5190C40B200E6900B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		8D33D0F6190C40B200E6900B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8D33D0F8190C40B200E6900B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		8D33D0FA190C40B200E6900B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		8D33D0FC190C40B200E6900B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8D33D0FD190C40B200E6900B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8D33D0FF190C40B200E6900B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		8D33D101190C40B200E6900B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		8D33D108190C40B300E6900B /* FinalExamTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalExamTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D33D109190C40B300E6900B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8D33D111190C40B300E6900B /* FinalExamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinalExamTests-Info.plist"; sourceTree = "<group>"; };
+		8D33D113190C40B300E6900B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D33D115190C40B300E6900B /* finalTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = finalTests.h; sourceTree = "<group>"; };
+		8D33D116190C40B300E6900B /* finalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = finalTests.m; sourceTree = "<group>"; };
+		8D33D126190C426800E6900B /* SpirographView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpirographView.h; sourceTree = "<group>"; };
+		8D33D127190C426800E6900B /* SpirographView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpirographView.m; sourceTree = "<group>"; };
+		8D33D128190C426800E6900B /* HarmonigraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HarmonigraphView.h; sourceTree = "<group>"; };
+		8D33D129190C426800E6900B /* HarmonigraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HarmonigraphView.m; sourceTree = "<group>"; };
+		8D33D12A190C426800E6900B /* SpirographAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpirographAppDelegate.h; sourceTree = "<group>"; };
+		8D33D12B190C426800E6900B /* SpirographAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpirographAppDelegate.m; sourceTree = "<group>"; };
+		8D33D12C190C426800E6900B /* SpirographViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpirographViewController.h; sourceTree = "<group>"; };
+		8D33D12D190C426800E6900B /* SpirographViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpirographViewController.m; sourceTree = "<group>"; };
+		8D33D142190C461700E6900B /* Quiz8EtchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz8EtchView.h; sourceTree = "<group>"; };
+		8D33D143190C461700E6900B /* Quiz8EtchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz8EtchView.m; sourceTree = "<group>"; };
+		8D33D144190C461700E6900B /* Quiz8AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz8AppDelegate.h; sourceTree = "<group>"; };
+		8D33D145190C461700E6900B /* Quiz8AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz8AppDelegate.m; sourceTree = "<group>"; };
+		8D33D146190C461700E6900B /* Quiz8ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz8ViewController.h; sourceTree = "<group>"; };
+		8D33D147190C461700E6900B /* Quiz8ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz8ViewController.m; sourceTree = "<group>"; };
+		8D33D14B190C466400E6900B /* redframe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redframe.png; sourceTree = "<group>"; };
+		8DE30B77190DAB3200654A5F /* morback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = morback.png; sourceTree = "<group>"; };
+		8DE30B78190DAB3200654A5F /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		8DE30B79190DAB3200654A5F /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
+		8DE30B7A190DAB3200654A5F /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		8DE30B7B190DAB3200654A5F /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		8DE30B7C190DAB3200654A5F /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		8DE30B7D190DAB3200654A5F /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		8DE30B7E190DAB3200654A5F /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		8DE30B7F190DAB3200654A5F /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		8DE30B80190DAB3200654A5F /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		8DE30B81190DAB3200654A5F /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		8DE30B82190DAB3200654A5F /* MatchingGameAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchingGameAppDelegate.h; sourceTree = "<group>"; };
+		8DE30B83190DAB3200654A5F /* MatchingGameAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchingGameAppDelegate.m; sourceTree = "<group>"; };
+		8DE30B84190DAB3200654A5F /* MatchingGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchingGameViewController.h; sourceTree = "<group>"; };
+		8DE30B85190DAB3200654A5F /* MatchingGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchingGameViewController.m; sourceTree = "<group>"; };
+		8DE30B93190DADDC00654A5F /* spirotabbaritem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spirotabbaritem.png; sourceTree = "<group>"; };
+		8DE30B95190DADE900654A5F /* tabbaritem1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbaritem1.png; sourceTree = "<group>"; };
+		8DE30B97190DADF400654A5F /* cardtabbaritem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardtabbaritem.png; sourceTree = "<group>"; };
+		8DE30B99190DADFE00654A5F /* etchtabbaritem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = etchtabbaritem.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D33D0D6190C40B200E6900B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D33D0DE190C40B200E6900B /* UIKit.framework in Frameworks */,
+				8D33D0E0190C40B200E6900B /* Foundation.framework in Frameworks */,
+				8D33D0E2190C40B200E6900B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D33D104190C40B300E6900B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D33D10A190C40B300E6900B /* SenTestingKit.framework in Frameworks */,
+				8D33D10B190C40B300E6900B /* UIKit.framework in Frameworks */,
+				8D33D10C190C40B300E6900B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D33D0CE190C40B200E6900B = {
+			isa = PBXGroup;
+			children = (
+				8D33D0E3190C40B200E6900B /* final */,
+				8D33D10F190C40B300E6900B /* finalTests */,
+				8D33D0DC190C40B200E6900B /* Frameworks */,
+				8D33D0DA190C40B200E6900B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D33D0DA190C40B200E6900B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D33D0D9190C40B200E6900B /* FinalExam.app */,
+				8D33D108190C40B300E6900B /* FinalExamTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D33D0DC190C40B200E6900B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D33D0DD190C40B200E6900B /* UIKit.framework */,
+				8D33D0DF190C40B200E6900B /* Foundation.framework */,
+				8D33D0E1190C40B200E6900B /* CoreGraphics.framework */,
+				8D33D109190C40B300E6900B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D33D0E3190C40B200E6900B /* final */ = {
+			isa = PBXGroup;
+			children = (
+				8DE30B99190DADFE00654A5F /* etchtabbaritem.png */,
+				8DE30B97190DADF400654A5F /* cardtabbaritem.png */,
+				8DE30B95190DADE900654A5F /* tabbaritem1.png */,
+				8DE30B93190DADDC00654A5F /* spirotabbaritem.png */,
+				8DE30B37190DA81600654A5F /* MathingGame */,
+				8D33D136190C439700E6900B /* Etch-A-Sketch */,
+				8D33D125190C421900E6900B /* SpiroGraph */,
+				8D33D0EC190C40B200E6900B /* AppDelegate.h */,
+				8D33D0ED190C40B200E6900B /* AppDelegate.m */,
+				8D33D0EF190C40B200E6900B /* MainStoryboard_iPhone.storyboard */,
+				8D33D0F2190C40B200E6900B /* MainStoryboard_iPad.storyboard */,
+				8D33D0F5190C40B200E6900B /* FirstViewController.h */,
+				8D33D0F6190C40B200E6900B /* FirstViewController.m */,
+				8D33D0F8190C40B200E6900B /* first.png */,
+				8D33D0FA190C40B200E6900B /* first@2x.png */,
+				8D33D0FC190C40B200E6900B /* SecondViewController.h */,
+				8D33D0FD190C40B200E6900B /* SecondViewController.m */,
+				8D33D0FF190C40B200E6900B /* second.png */,
+				8D33D101190C40B200E6900B /* second@2x.png */,
+				8D33D0E4190C40B200E6900B /* Supporting Files */,
+			);
+			path = final;
+			sourceTree = "<group>";
+		};
+		8D33D0E4190C40B200E6900B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D33D0E5190C40B200E6900B /* FinalExam-Info.plist */,
+				8D33D0E6190C40B200E6900B /* InfoPlist.strings */,
+				8D33D0E9190C40B200E6900B /* main.m */,
+				8D33D0EB190C40B200E6900B /* FinalExam-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D33D10F190C40B300E6900B /* finalTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D33D115190C40B300E6900B /* finalTests.h */,
+				8D33D116190C40B300E6900B /* finalTests.m */,
+				8D33D110190C40B300E6900B /* Supporting Files */,
+			);
+			path = finalTests;
+			sourceTree = "<group>";
+		};
+		8D33D110190C40B300E6900B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D33D111190C40B300E6900B /* FinalExamTests-Info.plist */,
+				8D33D112190C40B300E6900B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D33D125190C421900E6900B /* SpiroGraph */ = {
+			isa = PBXGroup;
+			children = (
+				8D33D126190C426800E6900B /* SpirographView.h */,
+				8D33D127190C426800E6900B /* SpirographView.m */,
+				8D33D128190C426800E6900B /* HarmonigraphView.h */,
+				8D33D129190C426800E6900B /* HarmonigraphView.m */,
+				8D33D12A190C426800E6900B /* SpirographAppDelegate.h */,
+				8D33D12B190C426800E6900B /* SpirographAppDelegate.m */,
+				8D33D12C190C426800E6900B /* SpirographViewController.h */,
+				8D33D12D190C426800E6900B /* SpirographViewController.m */,
+			);
+			name = SpiroGraph;
+			sourceTree = "<group>";
+		};
+		8D33D136190C439700E6900B /* Etch-A-Sketch */ = {
+			isa = PBXGroup;
+			children = (
+				8D33D14B190C466400E6900B /* redframe.png */,
+				8D33D142190C461700E6900B /* Quiz8EtchView.h */,
+				8D33D143190C461700E6900B /* Quiz8EtchView.m */,
+				8D33D144190C461700E6900B /* Quiz8AppDelegate.h */,
+				8D33D145190C461700E6900B /* Quiz8AppDelegate.m */,
+				8D33D146190C461700E6900B /* Quiz8ViewController.h */,
+				8D33D147190C461700E6900B /* Quiz8ViewController.m */,
+			);
+			name = "Etch-A-Sketch";
+			sourceTree = "<group>";
+		};
+		8DE30B37190DA81600654A5F /* MathingGame */ = {
+			isa = PBXGroup;
+			children = (
+				8DE30B77190DAB3200654A5F /* morback.png */,
+				87C59DAF190E98AE005D1603 /* index.png */,
+				87C59DA8190E969F005D1603 /* K♥️.png */,
+				8DE30B78190DAB3200654A5F /* CardMatchingGame.h */,
+				8DE30B79190DAB3200654A5F /* CardMatchingGame.m */,
+				8DE30B7A190DAB3200654A5F /* Card.h */,
+				8DE30B7B190DAB3200654A5F /* Card.m */,
+				8DE30B7C190DAB3200654A5F /* Deck.h */,
+				8DE30B7D190DAB3200654A5F /* Deck.m */,
+				8DE30B7E190DAB3200654A5F /* PlayingCardDeck.h */,
+				8DE30B7F190DAB3200654A5F /* PlayingCardDeck.m */,
+				8DE30B80190DAB3200654A5F /* PlayingCard.h */,
+				8DE30B81190DAB3200654A5F /* PlayingCard.m */,
+				8DE30B82190DAB3200654A5F /* MatchingGameAppDelegate.h */,
+				8DE30B83190DAB3200654A5F /* MatchingGameAppDelegate.m */,
+				8DE30B84190DAB3200654A5F /* MatchingGameViewController.h */,
+				8DE30B85190DAB3200654A5F /* MatchingGameViewController.m */,
+			);
+			name = MathingGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D33D0D8190C40B200E6900B /* FinalExam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D33D11A190C40B300E6900B /* Build configuration list for PBXNativeTarget "FinalExam" */;
+			buildPhases = (
+				8D33D0D5190C40B200E6900B /* Sources */,
+				8D33D0D6190C40B200E6900B /* Frameworks */,
+				8D33D0D7190C40B200E6900B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinalExam;
+			productName = final;
+			productReference = 8D33D0D9190C40B200E6900B /* FinalExam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D33D107190C40B300E6900B /* FinalExamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D33D11D190C40B300E6900B /* Build configuration list for PBXNativeTarget "FinalExamTests" */;
+			buildPhases = (
+				8D33D103190C40B300E6900B /* Sources */,
+				8D33D104190C40B300E6900B /* Frameworks */,
+				8D33D105190C40B300E6900B /* Resources */,
+				8D33D106190C40B300E6900B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D33D10E190C40B300E6900B /* PBXTargetDependency */,
+			);
+			name = FinalExamTests;
+			productName = finalTests;
+			productReference = 8D33D108190C40B300E6900B /* FinalExamTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D33D0D0190C40B200E6900B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Vincent Pillinger";
+			};
+			buildConfigurationList = 8D33D0D3190C40B200E6900B /* Build configuration list for PBXProject "FinalExam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8D33D0CE190C40B200E6900B;
+			productRefGroup = 8D33D0DA190C40B200E6900B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D33D0D8190C40B200E6900B /* FinalExam */,
+				8D33D107190C40B300E6900B /* FinalExamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D33D0D7190C40B200E6900B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D33D0E8190C40B200E6900B /* InfoPlist.strings in Resources */,
+				8D33D0F1190C40B200E6900B /* MainStoryboard_iPhone.storyboard in Resources */,
+				8D33D0F4190C40B200E6900B /* MainStoryboard_iPad.storyboard in Resources */,
+				8D33D0F9190C40B200E6900B /* first.png in Resources */,
+				8D33D0FB190C40B200E6900B /* first@2x.png in Resources */,
+				8D33D100190C40B200E6900B /* second.png in Resources */,
+				8D33D102190C40B200E6900B /* second@2x.png in Resources */,
+				8D33D14C190C466400E6900B /* redframe.png in Resources */,
+				8DE30B86190DAB3200654A5F /* morback.png in Resources */,
+				8DE30B94190DADDC00654A5F /* spirotabbaritem.png in Resources */,
+				8DE30B96190DADE900654A5F /* tabbaritem1.png in Resources */,
+				8DE30B98190DADF400654A5F /* cardtabbaritem.png in Resources */,
+				8DE30B9A190DADFE00654A5F /* etchtabbaritem.png in Resources */,
+				87C59DA9190E969F005D1603 /* K♥️.png in Resources */,
+				87C59DB0190E98AE005D1603 /* index.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D33D105190C40B300E6900B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D33D114190C40B300E6900B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D33D106190C40B300E6900B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D33D0D5190C40B200E6900B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D33D0EA190C40B200E6900B /* main.m in Sources */,
+				8D33D0EE190C40B200E6900B /* AppDelegate.m in Sources */,
+				8D33D0F7190C40B200E6900B /* FirstViewController.m in Sources */,
+				8D33D0FE190C40B200E6900B /* SecondViewController.m in Sources */,
+				8D33D12E190C426800E6900B /* SpirographView.m in Sources */,
+				8D33D12F190C426800E6900B /* HarmonigraphView.m in Sources */,
+				8D33D130190C426800E6900B /* SpirographAppDelegate.m in Sources */,
+				8D33D131190C426800E6900B /* SpirographViewController.m in Sources */,
+				8D33D148190C461700E6900B /* Quiz8EtchView.m in Sources */,
+				8D33D149190C461700E6900B /* Quiz8AppDelegate.m in Sources */,
+				8D33D14A190C461700E6900B /* Quiz8ViewController.m in Sources */,
+				8DE30B87190DAB3200654A5F /* CardMatchingGame.m in Sources */,
+				8DE30B88190DAB3200654A5F /* Card.m in Sources */,
+				8DE30B89190DAB3200654A5F /* Deck.m in Sources */,
+				8DE30B8A190DAB3200654A5F /* PlayingCardDeck.m in Sources */,
+				8DE30B8B190DAB3200654A5F /* PlayingCard.m in Sources */,
+				8DE30B8C190DAB3200654A5F /* MatchingGameAppDelegate.m in Sources */,
+				8DE30B8D190DAB3200654A5F /* MatchingGameViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D33D103190C40B300E6900B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D33D117190C40B300E6900B /* finalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D33D10E190C40B300E6900B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D33D0D8190C40B200E6900B /* FinalExam */;
+			targetProxy = 8D33D10D190C40B300E6900B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D33D0E6190C40B200E6900B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D33D0E7190C40B200E6900B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8D33D0EF190C40B200E6900B /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D33D0F0190C40B200E6900B /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8D33D0F2190C40B200E6900B /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D33D0F3190C40B200E6900B /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8D33D112190C40B300E6900B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D33D113190C40B300E6900B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D33D118190C40B300E6900B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D33D119190C40B300E6900B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D33D11B190C40B300E6900B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "final/FinalExam-Prefix.pch";
+				INFOPLIST_FILE = "final/FinalExam-Info.plist";
+				PRODUCT_NAME = FinalExam;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8D33D11C190C40B300E6900B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "final/FinalExam-Prefix.pch";
+				INFOPLIST_FILE = "final/FinalExam-Info.plist";
+				PRODUCT_NAME = FinalExam;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8D33D11E190C40B300E6900B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/final.app/final";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "final/final-Prefix.pch";
+				INFOPLIST_FILE = "finalTests/FinalExamTests-Info.plist";
+				PRODUCT_NAME = FinalExamTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8D33D11F190C40B300E6900B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/final.app/final";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "final/final-Prefix.pch";
+				INFOPLIST_FILE = "finalTests/FinalExamTests-Info.plist";
+				PRODUCT_NAME = FinalExamTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D33D0D3190C40B200E6900B /* Build configuration list for PBXProject "FinalExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D33D118190C40B300E6900B /* Debug */,
+				8D33D119190C40B300E6900B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D33D11A190C40B300E6900B /* Build configuration list for PBXNativeTarget "FinalExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D33D11B190C40B300E6900B /* Debug */,
+				8D33D11C190C40B300E6900B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D33D11D190C40B300E6900B /* Build configuration list for PBXNativeTarget "FinalExamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D33D11E190C40B300E6900B /* Debug */,
+				8D33D11F190C40B300E6900B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D33D0D0190C40B200E6900B /* Project object */;
+}
